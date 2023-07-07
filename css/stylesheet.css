@@ -183,4 +183,17 @@ a {
     padding-left: 15px;
 }
 
+.button {
+    background-color: rgb(244, 214, 68); /* Green */
+    border: none;
+    border-radius: 10px;
+    color: rgb(46, 45, 45);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 16px;
+  }
+
 /*form styling*/
