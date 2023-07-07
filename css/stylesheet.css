@@ -16,7 +16,7 @@ img {
    
 }
 
-/*editting section types*/
+/*editing section types*/
 
 header {
     text-align: center;
@@ -32,11 +32,24 @@ aside {
     border-radius: 20px;
     padding-bottom: 1px;
     padding-top: 0.5px;
+
+    
    
 }
 
+footer {
+margin-bottom: 40px;
 
-/*editting section types*/
+}
+
+footer a {
+    
+     display: inline-block;
+   
+
+}
+
+/*editing section types*/
 
 /*editing the text*/
 h1 {
@@ -77,6 +90,8 @@ h3, h2 {
     font-size: medium;
 }
 
+
+
 /*editing the text*/
 
 
@@ -116,3 +131,56 @@ a {
     background-color: rgb(190, 165, 125);
   }
   /*this is to edit the links and how they interact*/
+
+  /*form styling*/
+
+  #footerWords {
+    font-size: large;
+    color: rgb(46, 45, 45) ;
+  }
+
+.next3 {
+    padding-left: 8.5px;
+    padding-right: 5px;
+}
+
+.next4 {
+    padding-left: 5px ;
+    color: rgb(49, 48, 50);
+
+}
+
+  .next2, .next3, .next4 {
+    float:left; 
+    display:inline; 
+    width: fit-content;
+    color: rgb(49, 48, 50);
+    padding-left: 15px;
+
+}
+
+    .gender {
+        font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: justify;
+        color: rgb(49, 48, 50);
+        padding-left: 12px;
+        
+}
+
+.email{
+    padding-left: 14px;
+}
+
+.reason {
+    padding-left: 13px;
+    color: rgb(49, 48, 50);
+    font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.about {
+    padding-top: 2px;
+    padding-left: 15px;
+}
+
+/*form styling*/

@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Resume 5</title>
+        <title>Resume 7.1</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
         <link rel="stylesheet" href="./css/stylesheet.css">
@@ -109,12 +109,85 @@
             </style>
             <h2 id="contact">Contact Me</h2>
             <hr>
-            <p> If you'd like to get in touch:</p>
-            <ul>
-                <li> <a href="https://github.com/AaishaFisher" target="_blank">GitHub Profile</a> </li>
-                <li> <a href="https://www.linkedin.com/in/aai-sha-fisher-4b4aa7207/ target=" _blank"> LinkedIn Profile </a>
-                </li>
-            </ul>
+           
+<p id="footerWords">Name:</p>
+            <form action="https://formsubmit.co/aaishafisher484@gmail.com" method="POST">
+              
+                <div class="next2">
+                <label for="title"></label>
+               <select id="title" name="title">
+                    <option value="Ms">Ms</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Dr">Dr</option>
+                </select>
+            </div>
+
+            <div class="next3">
+                <input type="text" name="fName" minlength="5" maxlength="20" placeholder="First Name"  required>
+            </div>
+
+            <div class="next4">
+                <input type="text" name="lName" minlength="5" maxlength="20" placeholder="Last Name"  required>
+            </div>
+<br>
+<br>
+<p id="footerWords">Gender:</p>
+
+<div class="gender">
+<label class="radio-inline">
+    <input type="radio" name="gender" checked>Male
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="gender">Female
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="gender">Prefer not to say.
+  </label>
+</div>
+<br>
+<p id="footerWords">Email:</p>
+
+ <div class= "email">
+<label for="email"></label>
+            <input type="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Email Address" required>
+        </div>   
+        <br>          
+        
+       <p id="footerWords">Reason for contacting me:
+       </p> 
+
+       <div class="reason">
+       <label for="reason">
+        <input type="checkbox" name="reason-1" required>To schedule an interview
+        <input type="checkbox" name="reason-2" required>Freelance Services
+        <input type="checkbox" name="reason-3" required> Consultant Services
+        </label>
+       </div>
+
+       <br>
+       <p id="footerWords">Anything extra you'd like me to know:</p>
+       
+       <div class="about">
+       <label for="About"></label>
+       <textarea id="About" name="About" cols="30" rows="3" placeholder="About">
+       </textarea>
+       </div>
+
+        </form>   
+        <br>
+        <br>
+        
+        <hr>
+
+            <span>
+                <p> <a href="https://github.com/AaishaFisher" target="_blank">GitHub Profile</a> </p>
+                <p> <a href="https://www.linkedin.com/in/aai-sha-fisher-4b4aa7207/ target=" _blank"> LinkedIn Profile </a> </p>
+            </span>
+
+            
+
         </footer>
 
     </body>
